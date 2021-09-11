@@ -5,9 +5,6 @@ import { BsSearch } from "react-icons/bs";
 import { AiOutlineUser } from "react-icons/ai";
 import { HiOutlineShoppingCart } from "react-icons/hi";
 
-import logo from "../../assets/logo.png";
-import logoMoblie from "../../assets/logoMobile.png";
-
 import "./styles.css";
 
 const NavBar = () => {
@@ -16,10 +13,14 @@ const NavBar = () => {
   return (
     <header className="navbar-header">
       <nav className="navbar">
-        <img className="logo" src={logo} alt="Logo corebiz #gobeyond" />
+        <img
+          className="logo"
+          src="/assets/logo.png"
+          alt="Logo corebiz #gobeyond"
+        />
         <img
           className="logo-mobile"
-          src={logoMoblie}
+          src="/assets/logoMobile.png"
           alt="Logo corebiz #gobeyond"
         />
 
