@@ -13,7 +13,7 @@ const NewsDesk = () => {
           <input type="text" placeholder="Digite seu nome" />
           <input type="text" placeholder="Digite seu email" />
 
-          <div className="container-button">
+          <div className="container-button-news">
             <a href="/" className="button-news button--flex">
               Eu quero!
             </a>

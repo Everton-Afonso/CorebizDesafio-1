@@ -21,7 +21,7 @@
   color: var(--text);
   padding: 10px;
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .mobile-menu-icon {
   display: none;
