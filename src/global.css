@@ -3,6 +3,7 @@
   --color-primary: #ffffff;
   --color-secondary: #e9bf33;
   --background: #e5e5e5;
+  --background-new-desk: #f2f2f2;
   --text: #333333;
   --line: #7a7a7a;
   --green: #00e676;
@@ -18,5 +19,5 @@ body {
   min-height: 100vh;
   scroll-behavior: smooth;
   background: var(--background);
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }

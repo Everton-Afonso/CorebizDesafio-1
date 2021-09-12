@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import NavBar from "./components/NavBar";
 import SliderLayout from "./components/SliderLayout";
+import NewsDesk from "./components/NewsDesk";
 
 import "./App.css";
 
@@ -11,6 +12,7 @@ function App() {
     <Router>
       <NavBar />
       <SliderLayout />
+      <NewsDesk />
       {/* <Switch>
         <Route path="/" component={Home} exact>
           <Home />>
