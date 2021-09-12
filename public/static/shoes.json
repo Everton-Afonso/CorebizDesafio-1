@@ -74,7 +74,7 @@
     "id": "94461431",
     "name": "Tênis Infantil Nike Flex Runner",
     "price": 279.99,
-    "oldPrice": null,
+    "oldPrice": 209.99,
     "image": "https://imgcentauro-a.akamaihd.net/230x230/94461431.jpg"
   },
   {
@@ -214,7 +214,7 @@
   },
   {
     "id": "94218131",
-    "name": "Tênis Infantil Nike Court Borough Low 2",
+    "name": "Nike Court Borough Low 2",
     "price": 199.99,
     "oldPrice": 299.99,
     "image": "https://imgcentauro-a.akamaihd.net/230x230/94218131.jpg"

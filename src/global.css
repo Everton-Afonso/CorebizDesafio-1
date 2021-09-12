@@ -5,13 +5,8 @@
   --background: #e5e5e5;
   --text: #333333;
   --line: #7a7a7a;
-  --text-highlight: #b3b9ff;
-  --title: #2e384d;
-  --red: #e83f5b;
-  --green: #4cd62b;
-  --blue: #5965e0;
-  --blue-dark: #4953b8;
-  --blue-twitter: #2aa9e0;
+  --green: #00e676;
+  --dark-green: #01dd73;
 }
 * {
   margin: 0;
@@ -23,4 +18,5 @@ body {
   min-height: 100vh;
   scroll-behavior: smooth;
   background: var(--background);
+  font-family: 'Nunito', sans-serif;
 }

@@ -4,8 +4,8 @@
   margin-top: 15px;
 }
 .best-sellers div {
-    width: 56px;
-    border: 2px solid var(--color-secondary);
+  width: 56px;
+  border: 2px solid var(--color-secondary);
 }
 .slider {
   display: flex;
@@ -28,7 +28,7 @@
   background: #ffffff;
   margin: 10px;
   padding: 10px;
-  width: 180px;
+  width: 190px;
   border-radius: 8px 0 0 0;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   flex: none;
@@ -39,39 +39,66 @@
   object-fit: cover;
 }
 .slider-info {
-  height: 140px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 2px;
 }
 .slider-info span {
   display: block;
   text-align: center;
-  padding: 5px;
   border-radius: 10px;
 }
 .slider-name {
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   font-weight: bold;
-  margin: 10px 0;
-  color: #00a8fb;
+  margin: 5px 0;
+  color: var(--line);
 }
 .slider-old-price {
-  font-size: 0.8rem;
-  text-decoration: line-through;
+  font-size: 0.9rem;
   flex-grow: 1;
-  color: red;
+  color: var(--line);
 }
 .slider-price {
-  margin-top: 10px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
-  background-color: #ff7e3b;
 }
-.bottons button {
+.slider-installment {
+  font-size: 0.8rem;
+  flex-grow: 1;
+  color: var(--line);
+  margin-top: 2px;
+}
+.container-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  background-color: var(--green);
+  color: #fff;
+  padding: 0.5rem;
+  font-size: 14px;
+  border-radius: 0.5rem;
+  transition: 0.2s;
+  text-decoration: none;
+  gap: 5px;
+}
+.button:hover {
+  background-color: var(--dark-green);
+}
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.buttons button {
   border: none;
   background: transparent;
 }
-.bottons-icon {
+.buttons-icon {
   font-size: 25px;
 }

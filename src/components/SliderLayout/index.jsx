@@ -1,5 +1,8 @@
 import React, { useEffect, useState, useRef } from "react";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import { ImWhatsapp } from "react-icons/im";
+
+import Stars from "../Stars";
 
 import "./styles.css";
 
@@ -35,9 +38,9 @@ const SliderLayout = () => {
       </section>
 
       <section className="slider">
-        <section className="bottons">
+        <section className="buttons">
           <button onClick={handleLeftClick}>
-            <IoIosArrowBack className="bottons-icon" />
+            <IoIosArrowBack className="buttons-icon" />
           </button>
         </section>
 
@@ -45,27 +48,39 @@ const SliderLayout = () => {
           <section className="slider-carousel" ref={sliderCarousel}>
             {data.map((item) => {
               const { id, name, price, oldPrice, image } = item;
+              const installment = (price / 9).toFixed(2);
 
               return (
-                <div className="slider-item" key={id}>
+                <section className="slider-item" key={id}>
                   <div className="slider-image">
                     <img src={image} alt="Shoe" />
                   </div>
 
                   <div className="slider-info">
-                    <span className="slider-name">{name}</span>
-                    <span className="slider-old-price">R$ {oldPrice}</span>
-                    <span className="slider-price">R$ {price}</span>
+                    <span className="slider-name">{name.toUpperCase()}</span>
+                    <Stars />
+                    <span className="slider-old-price">de R$ {oldPrice}</span>
+                    <span className="slider-price">por R$ {price}</span>
+                    <span className="slider-installment">
+                      ou em 9x de R$ {installment}
+                    </span>
                   </div>
-                </div>
+
+                  <div className="container-button">
+                    <a href="/" className="button button--flex">
+                      <ImWhatsapp />
+                      COMPRAR
+                    </a>
+                  </div>
+                </section>
               );
             })}
           </section>
         </section>
 
-        <section className="bottons">
+        <section className="buttons">
           <button onClick={handleRightClick}>
-            <IoIosArrowForward className="bottons-icon" />
+            <IoIosArrowForward className="buttons-icon" />
           </button>
         </section>
       </section>
