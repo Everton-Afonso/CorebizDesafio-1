@@ -12,7 +12,8 @@
 .news section {
   padding-top: 1rem;
 }
-.news h1, p {
+.news h1,
+p {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,4 +70,27 @@
 }
 .form-news input:focus {
   outline: none;
+}
+@media screen and (max-width: 768px) {
+  .news {
+    height: 14.37rem;
+  }
+  .form-news {
+    display: grid;
+  }
+  .button-news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .news {
+    height: 16rem;
+  }
+  .news h1 {
+    text-align: center;
+
+  }
 }

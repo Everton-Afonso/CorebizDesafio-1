@@ -41,7 +41,7 @@ function NewsDesk() {
           <aside>
             <h1>Participe de nossas news com promoções e nocidades!</h1>
           </aside>
-          <main className="main-content">
+          <section className="main-content">
             <form className="form-news" onSubmit={handleRegister}>
               <input
                 type="text"
@@ -62,7 +62,7 @@ function NewsDesk() {
                 <button className="button-news button--flex">Eu quero!</button>
               </div>
             </form>
-          </main>
+          </section>
         </section>
       ) : (
         <section className="news">
