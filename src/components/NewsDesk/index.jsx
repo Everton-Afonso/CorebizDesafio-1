@@ -11,12 +11,10 @@ const NewsDesk = () => {
       <main className="main-content">
         <form className="form-news">
           <input type="text" placeholder="Digite seu nome" />
-          <input type="text" placeholder="Digite seu email" />
+          <input type="email" placeholder="Digite seu email" />
 
           <div className="container-button-news">
-            <a href="/" className="button-news button--flex">
-              Eu quero!
-            </a>
+            <button className="button-news button--flex">Eu quero!</button>
           </div>
         </form>
       </main>
