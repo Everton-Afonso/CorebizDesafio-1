@@ -21,7 +21,10 @@
   color: var(--text);
   padding: 10px;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 1.2rem;
+}
+.link:hover {
+  color: #000;
 }
 .mobile-menu-icon {
   display: none;
@@ -56,18 +59,18 @@
   align-items: center;
 }
 .user-icon,
-.shoppingcart{
-    font-size: 20px;
+.shoppingcart {
+  font-size: 20px;
 }
 .user-bottun {
-    background: transparent;
-    border: none;
-    cursor: pointer;
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
 .shoppingcart {
-    margin-left: 15px;
+  margin-left: 15px;
 }
-@media screen and (min-width: 780px){
+@media screen and (min-width: 780px) {
   .logo-mobile {
     display: none;
   }
@@ -87,6 +90,7 @@
     top: 75px;
     transition: all 0.5s ease-out;
     width: 100%;
+    background: var(--white);
   }
   .link {
     text-align: center;

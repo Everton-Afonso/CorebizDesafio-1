@@ -31,13 +31,13 @@ const Footer = () => {
       </section>
 
       <section className="footer-groups">
-        <section className="logo-corebiz">
+        <div className="logo-corebiz">
           <img src="/assets/corebiz.png" alt="Logo corebiz #gobeyond" />
-        </section>
+        </div>
 
-        <section className="logo-vtex">
+        <div className="logo-vtex">
           <img src="/assets/vtex.png" alt="Logo vtex" />
-        </section>
+        </div>
       </section>
     </footer>
   );
