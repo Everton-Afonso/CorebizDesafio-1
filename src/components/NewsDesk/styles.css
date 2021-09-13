@@ -94,3 +94,13 @@ p {
 
   }
 }
+@media screen and (max-width: 768px) {
+  .news section {
+    padding-top: 5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .news h1, p {
+    text-align: center;
+  }
+}

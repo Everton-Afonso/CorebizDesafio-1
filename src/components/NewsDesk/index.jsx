@@ -38,9 +38,9 @@ function NewsDesk() {
     <>
       {isNull === null ? (
         <section className="news">
-          <aside>
+          <section>
             <h1>Participe de nossas news com promoções e nocidades!</h1>
-          </aside>
+          </section>
           <section className="main-content">
             <form className="form-news" onSubmit={handleRegister}>
               <input
