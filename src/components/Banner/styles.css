@@ -6,8 +6,9 @@
   margin: auto;
   overflow: hidden;
 }
-.active {
+.activeSlider {
   display: inline-block;
+  z-index: -1;
 }
 .inactive {
   display: none;
@@ -84,8 +85,56 @@
 }
 .active-dot,
 .dot:hover {
-  background-color: #F8475F;
+  background-color: #f8475f;
 }
 .textos-slides {
   margin-left: 30%;
+}
+@media screen and (max-width: 2560px) {
+  .banner-slide-info {
+    margin-top: 7rem;
+  }
+}
+@media screen and (max-width: 2560px) {
+  .slide-title {
+    line-height: 1.5rem;
+  }
+  .slide-subtilte {
+    margin-top: 3.8rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .slide-title {
+    font-size: 1.3rem;
+  }
+  .slide-subtilte {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .slide-title {
+    font-size: 1.1rem;
+  }
+  .slide-subtilte {
+    font-size: 1.3rem;
+    margin-top: 5rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .slide-title {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  .slide-subtilte {
+    font-size: 1rem;
+    margin-top: 4.2rem;
+  }
+  .dot {
+    height: 0.5rem;
+    width: 0.5rem;
+  }
+  .prev,
+.next {
+  font-size: 30px;
+}
 }

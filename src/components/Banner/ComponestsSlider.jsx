@@ -35,7 +35,7 @@ function SliderContent({ activeIndex, sliderImage }) {
       {sliderImage.map((slide, index) => (
         <div
           key={index}
-          className={index === activeIndex ? "slides active" : "inactive"}
+          className={index === activeIndex ? "slides activeSlider" : "inactive"}
         >
           <img className="slide-image" src={slide.image} alt="Banner" />
 
