@@ -134,7 +134,13 @@
     width: 0.5rem;
   }
   .prev,
-.next {
-  font-size: 30px;
+  .next {
+    font-size: 30px;
+  }
 }
+@media screen and (max-width: 425px) {
+  .slide-subtilte {
+    font-size: 1rem;
+    margin-top: 5rem;
+  }
 }

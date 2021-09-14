@@ -131,6 +131,9 @@
   .contact-me {
     width: 25rem;
   }
+  .logo-mobile {
+    margin-left: 25%;
+  }
 }
 @media screen and (max-width: 425px) { 
   .contact-me {

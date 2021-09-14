@@ -65,7 +65,7 @@ function NewsDesk() {
           </section>
         </section>
       ) : (
-        <section className="news">
+        <section className="news news-register">
           <section>
             <h1>Seu e-mail foi cadastrado com sucesso!</h1>
             <p>

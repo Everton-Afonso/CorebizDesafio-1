@@ -134,3 +134,9 @@
     margin-top: 1rem;
   }
 }
+@media screen and (max-width: 425px) {
+  .slider-item {
+    width: 7.6rem;
+    height: 20.5rem;
+  }
+}
