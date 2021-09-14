@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { ImWhatsapp } from "react-icons/im";
+import { Link } from "react-router-dom";
 
 import Stars from "../Stars";
 
@@ -67,10 +68,16 @@ const SliderLayout = () => {
                   </div>
 
                   <div className="container-button">
-                    <a href="/" className="button button--flex">
+                    <Link
+                      target={"_blank"}
+                      to={{
+                        pathname: `https://api.whatsapp.com/send?phone=5535998971698&text=${name.toUpperCase()} Ainda está disponivel`,
+                      }}
+                      className="button button--flex"
+                    >
                       <ImWhatsapp />
                       COMPRAR
-                    </a>
+                    </Link>
                   </div>
                 </section>
               );
