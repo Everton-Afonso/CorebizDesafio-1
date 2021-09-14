@@ -11,7 +11,7 @@ const SliderLayout = () => {
   const sliderCarousel = useRef(null);
 
   useEffect(() => {
-    fetch("http://localhost:3000/static/shoes.json")
+    fetch("static/shoes.json")
       .then((res) => res.json())
       .then(setData);
   }, []);
