@@ -53,7 +53,7 @@ const SliderLayout = () => {
               return (
                 <section className="slider-item" key={id}>
                   <div className="slider-image">
-                    <img src={image} alt="Shoe" />
+                    <img src={image} alt="Shoe on sale" />
                   </div>
 
                   <div className="slider-info">
