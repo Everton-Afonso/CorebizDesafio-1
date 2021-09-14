@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  <img alt="Gobeyond" title="Gobeyond" src=".github/logo.png" />
+  <img alt="Gobeyond" title="Gobeyond" src=".github/logo.png" style="background: #000"/>
 </h1>
 
 <p align="center">
@@ -36,7 +36,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ### Gobeyond
 
-Fazer o layout da loja e implementar algumas funcionalidades disponivies no layout que esta disponivel logo abaixo. Para visualizar como o projeto ficou clique nesse link: [Projeto](https://go-beyond-shop.vercel.app/)
+Fazer o layout da loja e implementar algumas funcionalidades disponivies no layout que esta disponivel logo abaixo. Para visualizar como o projeto ficou clique nesse link: [Projeto](https://corebiz-desafio-1-nu.vercel.app/)
 
 Siga os passos abaixo caso você queira rodar o projeto na sua maquina:
 ```bash
