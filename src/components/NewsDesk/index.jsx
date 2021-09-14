@@ -77,7 +77,7 @@ function NewsDesk() {
                 className="button-success button--flex"
                 onClick={handleNewRegister}
               >
-                Cadastrar novo e-mail
+                Cadastrar novo e-mail!
               </button>
             </div>
           </section>
