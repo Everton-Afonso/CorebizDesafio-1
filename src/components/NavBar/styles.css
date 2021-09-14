@@ -79,6 +79,9 @@
   .logo {
     display: none;
   }
+  .logo-mobile {
+    margin-left: 40%;
+  }
   .nav-links {
     display: none;
   }
@@ -105,5 +108,32 @@
     left: 25px;
     border: none;
     background: transparent;
+    top: 1rem;
+  }
+  .user-icon,
+  .user-bottun {
+    display: none;
+  }
+  .navbar-header {
+    display: grid;
+    height: 5rem;
+  }
+  .submit {
+    width: 31.25rem;
+  }
+  .user {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+  };
+}
+@media screen and (max-width: 425px) { 
+  .contact-me {
+    width: 25rem;
+  }
+}
+@media screen and (max-width: 425px) { 
+  .contact-me {
+    width: 15.62rem;
   }
 }
