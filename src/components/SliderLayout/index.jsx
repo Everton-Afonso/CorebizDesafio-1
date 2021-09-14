@@ -71,7 +71,7 @@ const SliderLayout = () => {
                     <Link
                       target={"_blank"}
                       to={{
-                        pathname: `https://api.whatsapp.com/send?phone=5535998971698&text=${name.toUpperCase()} Ainda está disponivel`,
+                        pathname: `https://api.whatsapp.com/send?phone=5535998511667&text=O ${name.toUpperCase()} ainda está disponivel?`,
                       }}
                       className="button button--flex"
                     >
